@@ -1,1 +1,193 @@
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+.underline {
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Lato', sans-serif
+}
+.underline:hover{
+  color:#EA8231
+} .linked:hover {
+  color:rgb(255, 255, 255)
+}
+a:link, a:visited {
+  color: black
+}
+a:hover {
+  color:rgb(77, 77, 77)
+}
+.linked {
+  font-family: 'Lato', sans-serif
+  font-size: 18px;
+  text-decoration: none;
+}
+p {
+  padding-left: 20%;
+  padding-right: 20%;
+  color: chocolate
+}
+
+#one {
+background-color: #EA8231;
+color: white;
+padding: 16px 19px;
+text-align: center;
+display: inline-block;
+
+}
+
+#two {
+background-color: #EA8231;
+  color: white;
+  padding: 16px 19px;
+  margin-left: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#two:hover {
+ background-color#ff8b33
+}
+
+.img {
+  width: 40px
+}
+
+
+#yo {
+position: absolute
+right: 24px
+}
+
+.image {
+  position: relative;
+  width: 500px;
+  left: 450px;
+}
+
+.img__image {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  bottom: 317px;
+  left: 458px;
+  width: 500px;
+  height: 333px ;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity:0%;
+  transition: ease-in 0.10s
+}
+
+.image__overlay:hover{
+opacity:1 ;
+}
+
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+  transition: linear 0.10s
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  color: white
+}
+.kid {
+  padding: 30px;
+  padding-bottom: 60px
+}
+
+.section {
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.kid_text {
+  position: absolute;
+  top: 475px;
+  padding-left: 3.5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.price {
+  color: rgb(71, 173, 98);
+}
+
+.kid_text2 {
+  position: absolute;
+  top: 475px;
+  left: 495px;
+  padding-left: 5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text3 {
+  position: absolute;
+  top: 475px;
+  left: 860px;
+  padding-left: 5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text4 {
+  position: absolute;
+  top: 865px;
+  padding-left: 3.5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text5 {
+   position: absolute;
+  top: 865px;
+  left: 495px;
+  padding-left: 5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text6 {
+  position: absolute;
+  top: 865px;
+  left: 860px;
+  padding-left: 5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text7 {
+  position: absolute;
+  top: 1255px;
+  padding-left: 3.5%;
+  padding-right: 0%;
+  color:black;
+}
+
+.kid_text8 {
+   position: absolute;
+  top: 1255px;
+  left: 495px;
+  padding-left: 5%;
+  padding-right: 0%;
+  color:black;
+}
+
+
 
